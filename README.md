@@ -1,4 +1,4 @@
-
+NOTE: You have to downlaod the Udacity Self Driving nano degree engineer simulator before you can run this project. [LINK TO DOWNLOAD SIMULATOR](https://s3-us-west-1.amazonaws.com/udacity-selfdrivingcar/Term1-Sim/term1-simulator-windows.zip)
 ## Project Description
 
 In this project, I use a neural network to clone car driving behavior.  It is a supervised regression problem between the car steering angles and the road images in front of a car.  
@@ -38,7 +38,7 @@ Or you can manually install the required libraries (see the contents of the envi
 
 ### Run the pretrained model
 
-Start up [the Udacity self-driving simulator](https://github.com/udacity/self-driving-car-sim), choose a scene and press the Autonomous Mode button.  Then, run the model as follows:
+After downloading the Udacity Simulator above, choose a scene and press the Autonomous Mode button.  Then, run the model as follows:
 
 ```python
 python drive.py model.h5
