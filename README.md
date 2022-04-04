@@ -1,10 +1,4 @@
 
-
-|Lake Track|Jungle Track|
-|:--------:|:------------:|
-|[![Lake Track](images/lake_track.png)](https://youtu.be/hTPADovdyfA)|[![Jungle Track](images/jungle_track.png)](https://youtu.be/mZOc-zrbnR8)|
-|[YouTube Link](https://youtu.be/hTPADovdyfA)|[YouTube Link](https://youtu.be/mZOc-zrbnR8)|
-
 ## Project Description
 
 In this project, I use a neural network to clone car driving behavior.  It is a supervised regression problem between the car steering angles and the road images in front of a car.  
@@ -133,31 +127,7 @@ For training, I used the following augumentation technique along with Python gen
 
 Using the left/right images is useful to train the recovery driving scenario.  The horizontal translation is useful for difficult curve handling (i.e. the one after the bridge).
 
-
-### Examples of Augmented Images
-
-The following is the example transformations:
-
-**Center Image**
-
-![Center Image](images/center.png)
-
-**Left Image**
-
-![Left Image](images/left.png)
-
-**Right Image**
-
-![Right Image](images/right.png)
-
-**Flipped Image**
-
-![Flipped Image](images/flip.png)
-
 **Translated Image**
-
-![Translated Image](images/trans.png)
-
 
 ## Training, Validation and Test
 
@@ -184,9 +154,6 @@ I felt that the validation loss is not a great indication of how well it drives.
 ## Outcome
 
 The model can drive the course without bumping into the side ways.
-
-- [The Lake Track - YouTube Link](https://youtu.be/7QdL3Az55jU)
-- [The Mountain Track - YouTube Link](https://youtu.be/fqaibk81eM4)
 
 ## References
 - NVIDIA model: https://devblogs.nvidia.com/parallelforall/deep-learning-self-driving-cars/
