@@ -14,7 +14,9 @@ dependencies:
     - scipy
     - h5py
     - eventlet
-    - flask-socketio
+    - flask-socketIO==4.3.1
+    - python-engineio==3.13.2
+    - python-socketio==4.6.0
     - seaborn
     - pandas
     - imageio
